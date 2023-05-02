@@ -54,6 +54,11 @@ export default defineConfig({
         '~~': './',
       },
     },
+    build: {
+      rollupOptions: {
+        external: 'preact/jsx-runtime',
+      },
+    },
     plugins: [
       Unocss({
         presets: [
