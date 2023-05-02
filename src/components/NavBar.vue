@@ -43,7 +43,7 @@
               </BaseButton>
             </div>
             <NavBarDesktopTabs
-              client:media="screen and (min-width: 600px)"
+              client:media="screen and (min-width: 640px)"
               :navlinks="navlinks"
               :current-path="currentPath"
               class="h-full"
@@ -52,13 +52,13 @@
           <DarkModeSwitch client:load />
           <div class="-mr-2 flex items-center md:hidden">
             <NavBarMobileMenuButton
-              client:media="screen and (max-width: 600px)"
+              client:media="screen and (max-width: 640px)"
             />
           </div>
         </div>
       </div>
       <NavBarMobileMenu
-        client:media="screen and (max-width: 600px)"
+        client:media="screen and (max-width: 640px)"
         :navlinks="navlinks"
         :current-path="currentPath"
       />
