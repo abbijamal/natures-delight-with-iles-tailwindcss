@@ -27,10 +27,6 @@ export default defineConfig({
             configPath: 'tailwind.config.cjs',
             cssPath: '@/assets/css/tailwind.css',
           },
-          experimental: {
-            designableFileTypes: ['.astro', '.jsx', '.tsx', '.svelte'],
-            metaFrameworks: ['astro'],
-          },
           //...
         },
         // https://github.com/antfu/unplugin-auto-import#configuration
