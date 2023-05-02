@@ -3,10 +3,10 @@
 
 /* Pinegrow generated Design Panel Init End */
 @import 'tailwindcss/base';
-/* @import '@/assets/css/typography.css'; */
+@import '@/assets/css/typography.css';
 
 @import 'tailwindcss/components';
-/* @import '@/assets/css/colors.css'; */
+@import '@/assets/css/colors.css';
 
 @import 'tailwindcss/utilities';
 

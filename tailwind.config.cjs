@@ -15,13 +15,7 @@ module.exports = {
       colorShades: true, // DEFAULT - [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950, 'DEFAULT']
       fonts: pg_fonts,
       backgrounds: pg_backgrounds,
-      theme: {},
     }),
-  ],
-  safelist: [
-    {
-      pattern: /pg-(.+)/, // .+ means one or more chars, .* means zero or more
-    },
   ],
   darkMode: 'class',
   get content() {
