@@ -16,6 +16,11 @@ module.exports = {
       backgrounds: pg_backgrounds,
     }),
   ],
+  safelist: [
+    {
+      pattern: /pg-(.+)/, // .+ means one or more chars, .* means zero or more
+    },
+  ],
   darkMode: 'class',
   get content() {
     const _content = [
