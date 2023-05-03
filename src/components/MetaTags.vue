@@ -2,10 +2,10 @@
   <Head>
     <meta
       property="twitter:image"
-      content="https://vuejs.org/images/logo.png"
+      content="https://icons.vuetelescope.com/framework/iles.svg"
     />
-    <meta property="twitter:image:alt" content="Vue" />
-    <meta property="twitter:site" content="@vuejs" />
+    <meta property="twitter:image:alt" content="Iles" />
+    <meta property="twitter:site" content="@pinegrow" />
     <meta property="twitter:card" content="summary" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   </Head>
