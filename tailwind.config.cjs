@@ -12,7 +12,6 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@pinegrow/tailwindcss-plugin').default({
       colors: pg_colors,
-      colorShades: true, // DEFAULT - [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950, 'DEFAULT']
       fonts: pg_fonts,
       backgrounds: pg_backgrounds,
     }),
